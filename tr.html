@@ -1,29 +1,65 @@
-
-
-
 <!DOCTYPE html>
-<!DOCTYPE html>
-<!-- === Хедер с MP4 видео === -->
-<header id="site-header">
-  <video src="https://ia902807.us.archive.org/32/items/Charade19631280x696/Charade-1963.mp4"
-       poster="https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault_live.jpg"
-       controls
-       width="640"
-       height="360">
-</video>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Фільм ЛЮБОВ, СЕКС І ВИБОРИ (2026) Дивитися онлайн",
-  "description": "Фільм ЛЮБОВ, СЕКС І ВИБОРИ (2026) Дивитися онлайн.",
-  "thumbnailUrl": "https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault_live.jpg",
-  "uploadDate": "2026-03-26T17:50:00+03:00",
-  "duration": "PT2H59M51S",
-  "contentUrl": "https://ia902807.us.archive.org/32/items/Charade19631280x696/Charade-1963.mp4",
-  "embedUrl": ""
-}
-</script>
+<!-- === Хедер з чужим HLS потоком (theindiebeat.fm) === -->
+<header id="site-header" style="position: relative; width: 800px; height: 450px;">
+
+  <!-- LIVE бейдж -->
+  <div id="live-badge" style="
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 4px;
+      z-index: 10;
+      font-family: sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+  ">
+    LIVE
+  </div>
+
+  <!-- Вбудований HLS плеєр -->
+  <video id="video" controls autoplay width="800" height="450" muted playsinline style="display: block;"></video>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script>
+    var video = document.getElementById('video');
+    var videoSrc = 'https://tv.theindiebeat.fm/hls/stream.m3u8';
+
+    if (Hls.isSupported()) {
+        var hls = new Hls({
+            liveSyncDuration: 3,
+            liveMaxLatencyDuration: 5
+        });
+        hls.loadSource(videoSrc);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+            video.play();
+        });
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = videoSrc;
+        video.play();
+    }
+  </script>
+
+  <!-- JSON-LD для Google VideoObject -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "(МАВКА) Справжній міф (2026) Дивитись онлайн фільм Live Stream - theindiebeat.fm",
+    "description": "Прямий ефір з theindiebeat.fm, (МАВКА) Справжній міф (2026) Дивитись онлайн фільм.",
+    "thumbnailUrl": "https://tv.theindiebeat.fm/thumbnail.jpg",
+    "uploadDate": "2026-03-25T08:57:00+03:00",
+    "duration": "PT1H0M0S",
+    "isLiveBroadcast": true,
+    "contentUrl": "https://tv.theindiebeat.fm/hls/stream.m3u8",
+    "embedUrl": "https://tv.theindiebeat.fm/hls/stream.m3u8"
+  }
+  </script>
+
 </header>
 <html lang="uk">
 <head><meta charSet="utf-8"/>
