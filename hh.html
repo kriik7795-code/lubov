@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- === Хедер з чужим HLS потоком (theindiebeat.fm) === -->
+<!-- === HEADER з LIVE HLS потоком === -->
 <header id="site-header" style="position: relative; width: 800px; height: 450px;">
 
   <!-- LIVE бейдж -->
@@ -20,9 +20,12 @@
     LIVE
   </div>
 
-  <!-- Вбудований HLS плеєр -->
-  <video id="video" controls autoplay width="800" height="450" muted playsinline style="display: block;"></video>
+  <!-- Відео -->
+  <video id="video" controls autoplay muted playsinline
+         width="800" height="450"
+         style="display: block;"></video>
 
+  <!-- HLS.js -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script>
     var video = document.getElementById('video');
@@ -44,19 +47,27 @@
     }
   </script>
 
-  <!-- JSON-LD для Google VideoObject -->
+  <!-- JSON-LD (ОЧЕНЬ ВАЖНО) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "VideoObject",
-    "name": "(ПОВНИЙ ФІЛЬМ)ЛЮБОВ СЕКС І ВИБОРИ 2026 ДИВИТИСЯ ОНЛАЙН Live Stream - theindiebeat.fm",
-    "description": "Прямий ефір з theindiebeat.fm, (ПОВНИЙ ФІЛЬМ)ЛЮБОВ СЕКС І ВИБОРИ 2026 ДИВИТИСЯ ОНЛАЙН.",
+
+    "name": "ПОВНИЙ ФІЛЬМ ЛЮБОВ СЕКС І ВИБОРИ 2026 ОНЛАЙН",
+    "description": "Прямий ефір (live stream)",
+
     "thumbnailUrl": "https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault_live.jpg",
+
     "uploadDate": "2026-03-26T20:45:00+03:00",
-    "duration": "PT2H31M0S",
+
     "isLiveBroadcast": true,
-    "contentUrl": "https://tv.theindiebeat.fm/hls/stream.m3u8",
-    "embedUrl": "https://tv.theindiebeat.fm/hls/stream.m3u8"
+
+    "embedUrl": "https://kriik7795-code.github.io/lubov/povniy-film-lubov-sex-i-vibori-2026-divitisya-onlain.html",
+
+    "potentialAction": {
+      "@type": "WatchAction",
+      "target": "https://kriik7795-code.github.io/lubov/povniy-film-lubov-sex-i-vibori-2026-divitisya-onlain.html"
+    }
   }
   </script>
 
