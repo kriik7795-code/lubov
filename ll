@@ -2,149 +2,29 @@
 
 
 <!DOCTYPE html>
+<!DOCTYPE html>
 <!-- === Хедер с MP4 видео === -->
 <header id="site-header">
-  <!-- Прямой эфир YouTube -->
-<amp-youtube
-    width="560"
-    height="315"
-    layout="responsive"
-    data-videoid="II_m28Bm-iM"
-    autoplay
-    data-param-rel="0"
-    data-param-showinfo="0">
-</amp-youtube>
-
-<script async src="https://cdn.ampproject.org/v0.js"></script>
-<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-
+  <video src="https://ia902807.us.archive.org/32/items/Charade19631280x696/Charade-1963.mp4"
+       poster="https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault_live.jpg"
+       controls
+       width="640"
+       height="360">
+</video>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "NewsMediaOrganization",
-      "@id": "https://novyny.live/#organization",
-      "name": "Novyny.LIVE",
-      "alternateName": "Новини Live",
-      "url": "https://novyny.live/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://novyny.live/static/news/img/base/logo.svg"
-      },
-      "sameAs": [
-        "https://www.facebook.com/novyny.live",
-        "https://www.instagram.com/novyny.live/",
-        "https://t.me/novynylive",
-        "https://news.google.com/publications/CAAqBwgKMPCWpgsw2KG-Aw",
-        "https://www.youtube.com/channel/@TV9TeluguLive"
-      ],
-      "publishingPrinciples": "https://drive.google.com/file/d/1dRUAZsQmJ3qx9hqomucUkrM8xBNHAPDx/view?usp=sharing",
-      "ownershipFundingInfo": "https://novyny.live/ru/structure",
-      "masthead": "https://novyny.live/ru/contacts"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://novyny.live/#website",
-      "url": "https://novyny.live/",
-      "name": "Novyny.LIVE",
-      "publisher": {"@id": "https://novyny.live/#organization"}
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://kriik7795-code.github.io/lubov/film-lubov-sex-vibori-2026-divitisya-onlain-na-planeta-kino.html#webpage",
-      "url": "https://kriik7795-code.github.io/lubov/film-lubov-sex-vibori-2026-divitisya-onlain-na-planeta-kino.html",
-      "isPartOf": {"@id": "https://novyny.live/#website"},
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Главная",
-            "item": "https://novyny.live/ru/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Видео",
-            "item": "https://videos.novyny.live/ru/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "(ФІЛЬМ)ЛЮБОВ СЕКС І ВИБОРИ 2026 ДИВИТИСЯ ОНЛАЙН НА ПЛАНЕТА КІНО"
-          }
-        ]
-      }
-    },
-    {
-      "@type": "VideoObject",
-      "@id": "https://kriik7795-code.github.io/lubov/film-lubov-sex-vibori-2026-divitisya-onlain-na-planeta-kino.html#video",
-      "name": "(ФІЛЬМ)ЛЮБОВ СЕКС І ВИБОРИ 2026 ДИВИТИСЯ ОНЛАЙН НА ПЛАНЕТА КІНО",
-      "description": "Мартін - агент з підбору акторок у фільми для дорослих. У нічному клубі він заходить ідеальну кандидатку для нової ролі - тусовщицю Дашу із неймовірним акторським потенціалом! Однак після успішних перших зйомок, з’ясовується, що Даша - дружина місцевого мера. Тож тепер бідоласі Мартіну потрібно подбати не лише про власну кар’єру і життя, а ще й про... майбутні вибори.",
-      "thumbnailUrl": [
-        "https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault_live.jpg",
-        "https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault.jpg",
-        "https://i.ytimg.com/II_m28Bm-iM/maxresdefault.jpg",
-        "https://i.ytimg.com/II_m28Bm-iM/mqdefault.jpg",
-        "https://i.ytimg.com/II_m28Bm-iM/default.jpg",
-        "https://i.ytimg.com/vi/II_m28Bm-iM/sddefault.jpg"
-      ],
-      "uploadDate": "2026-03-26T17:17:00Z",
-      "duration": "PT5M",
-      "contentUrl": "https://www.youtube.com/watch?v=II_m28Bm-iM",
-      "embedUrl": "https://www.youtube.com/embed/II_m28Bm-iM",
-      "interactionStatistic": {
-        "@type": "InteractionCounter",
-        "interactionType": {"@type": "WatchAction"},
-        "userInteractionCount": 719
-      },
-      "publication": {
-        "@type": "BroadcastEvent",
-        "isLiveBroadcast": true,
-        "startDate": "2026-03-26T17:17:00Z"
-      },
-      "publisher": {"@id": "https://novyny.live/#organization"}
-    },
-    {
-      "@type": "NewsArticle",
-      "@id": "https://kriik7795-code.github.io/lubov/film-lubov-sex-vibori-2026-divitisya-onlain-na-planeta-kino.html#article",
-      "mainEntityOfPage": {
-        "@id": "https://kriik7795-code.github.io/lubov/film-lubov-sex-vibori-2026-divitisya-onlain-na-planeta-kino.html#webpage"
-      },
-      "headline": "(ФІЛЬМ)ЛЮБОВ СЕКС І ВИБОРИ 2026 ДИВИТИСЯ ОНЛАЙН НА ПЛАНЕТА КІНО",
-      "description": "Мартін - агент з підбору акторок у фільми для дорослих. У нічному клубі він заходить ідеальну кандидатку для нової ролі - тусовщицю Дашу із неймовірним акторським потенціалом! Однак після успішних перших зйомок, з’ясовується, що Даша - дружина місцевого мера. Тож тепер бідоласі Мартіну потрібно подбати не лише про власну кар’єру і життя, а ще й про... майбутні вибори.",
-      "datePublished": "2026-03-26T17:17:17+02:00",
-      "dateModified": "2026-03-26T17:17:17+02:00",
-      "image": [
-        "https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault_live.jpg",
-        "https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault.jpg",
-        "https://i.ytimg.com/vi/II_m28Bm-iM/maxresdefault.jpg",
-        "https://i.ytimg.com/vi/II_m28Bm-iM/mqdefault.jpg",
-        "https://i.ytimg.com/vi/II_m28Bm-iM/default.jpg",
-        "https://i.ytimg.com/vi/II_m28Bm-iM/sddefault.jpg"
-      ],
-      "video": {
-        "@id": "https://kinasweet.kesug.com/video/live/planeta-kino-divitisya-mavka-spravzgniy-mif-film-2026-divitisya-onlain.html#video"
-      },
-      "author": [{
-        "@type": "Person",
-        "@id": "https://novyny.live/ru/author/inna-buryak#person",
-        "name": "Инна Буряк",
-        "url": "https://novyny.live/ru/author/inna-buryak",
-        "jobTitle": "редактор ленты новостей"
-      }],
-      "articleSection": "Видео",
-      "keywords": ["Киевская область", "расследование", "укрытия"],
-      "isAccessibleForFree": true,
-      "publisher": {"@id": "https://novyny.live/#organization"}
-    }
-  ]
+  "@type": "VideoObject",
+  "name": "Фільм ЛЮБОВ, СЕКС І ВИБОРИ (2026) Дивитися онлайн",
+  "description": "Фільм ЛЮБОВ, СЕКС І ВИБОРИ (2026) Дивитися онлайн.",
+  "thumbnailUrl": "https://i.ytimg.com/vi/II_m28Bm-iM/hqdefault_live.jpg",
+  "uploadDate": "2026-03-26T17:50:00+03:00",
+  "duration": "PT2H59M51S",
+  "contentUrl": "https://ia902807.us.archive.org/32/items/Charade19631280x696/Charade-1963.mp4",
+  "embedUrl": ""
 }
 </script>
 </header>
-
 <html lang="uk">
 <head><meta charSet="utf-8"/>
 	<meta name="google-site-verification" content="6p5vSoBY-FlAl-X3qucew4qDvdj8Ns5k6UJSrCnhT-Q" />
