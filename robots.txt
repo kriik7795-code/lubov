@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Allow specific folder
+Allow: /lubov/
+
+Sitemap: https://kriik7795-code.github.io/sitemap.xml
