@@ -20,10 +20,30 @@
   <!-- Дополнительные blob видео -->
   <video tabindex="-1" role="application" preload="auto" playsinline crossorigin="anonymous" class="vjs-tech" id="content_video_html5_api" src="blob:https://www.vijayavani.net/9acde8e2-6f5b-4acf-8d7e-4ee9e49c8fd5" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" muted></video>
   <video tabindex="-1" role="application" preload="auto" playsinline crossorigin="anonymous" class="vjs-tech" id="content_video_html5_api" src="blob:https://www.vijayavani.net/9acde8e2-6f5b-4acf-8d7e-4ee9e49c8fd5" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" muted></video>
- <!-- Відео -->
-  <video id="video" controls autoplay muted playsinline
-         width="800" height="450"
-         style="display: block;"></video>
+ 
+ <!-- HLS.js -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script>
+    var video = document.getElementById('video');
+    var videoSrc = 'https://tv.theindiebeat.fm/hls/stream.m3u8';
+
+    if (Hls.isSupported()) {
+        var hls = new Hls({
+            liveSyncDuration: 3,
+            liveMaxLatencyDuration: 5
+        });
+        hls.loadSource(videoSrc);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+            video.play();
+        });
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = videoSrc;
+        video.play();
+    }
+  </script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Дивитися▷ * ЛЮБОВ СЕКС І ВИБОРИ 2026 повний фільм онлайн безкоштовно","description":"Прямий ефір (live stream) ЛЮБОВ СЕКС І ВИБОРИ 2026","thumbnailUrl":"https://img.youtube.com/vi/HoYsWagMFfE/hqdefault.jpg","uploadDate":"2026-03-27T05:09:00+03:00","isLiveBroadcast":true,"contentUrl":"https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRRRPhLO5wn7F8sO5f0aCmJ6GPZhjqXR-CzNA","embedUrl":"https://kriik7795-code.github.io/lubov/oo.html","publication":{"@type":"BroadcastEvent","isLiveBroadcast":true,"startDate":"2026-03-27T05:09:00+03:00","endDate":"2026-03-27T18:59:00+03:00"},"potentialAction":{"@type":"WatchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kilar.great-site.net/film-lubov-sex-i-vibori-2026-divitisya-onlain/"}}}</script>
 </header>
 <html lang="uk">
 <head><meta charSet="utf-8"/>
