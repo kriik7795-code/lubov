@@ -1,82 +1,62 @@
 
-<!DOCTYPE html><header style="position: relative; width: 100%; height: 300px; overflow: hidden; background: #000;">
-  <!-- Google видео блок -->
-  <div class="iHxmLe" jscontroller="yfZcPd" jsaction="rcuQ6b: npT2md" jsshadow="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    <a class="rIRoqf" href="https://www.vijayavani.net/" aria-label="Видео Vijayavani" style="display: block; width: 100%; height: 100%;">
-      <div class="gY2b2c" style="width: 100%; height: 100%;">
-        <div class="uhHOwf BYbUcd" style="width: 100%; height: 100%;">
-          <video src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRRRPhLO5wn7F8sO5f0aCmJ6GPZhjqXR-CzNA" class="DqfBw" preload="none" autoplay muted playsinline loop style="object-fit: cover; width: 100%; height: 100%;"></video>
+<!DOCTYPE html><header style="position: relative; width: 100%; overflow: hidden; background: #000;">
+  <!-- Первый Google видео блок -->
+  <div class="iHxmLe" jscontroller="yfZcPd" jsaction="rcuQ6b: npT2md" jsshadow="">
+    <a class="rIRoqf" href="https://www.vijayavani.net/" aria-label="Видео &quot;ವಿಜಯವಾಣಿ ನಂ.1 ದಿನ ಪತ್ರಿಕೆ | Vijayavani | Kannada News&quot; пользователя Sunil Sindhey, Vijayavani | Kannada News. Воспроизвести на платформе &quot;Vijayavani | Kannada News&quot;. " ping="/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.vijayavani.net/&amp;ved=2ahUKEwjb7oqSlb-TAxWaBxAIHVs-FUAQuAJ6BAgSEAY">
+      <div class="gY2b2c">
+        <div aria-hidden="true" class="AZJdrc zGXzeb kCyj6d t7VAxe">
+          <div class="uhHOwf BYbUcd" style="height:83px;width:148px">
+            <img alt="" id="dimg_Kv3FaduxIpqPwPAP2_zUgAQ_1" src="data:image/png;base64,...">
+          </div>
+          <div jsname="DwcXhb" class="LIna9b">
+            <div jscontroller="Fy1Pv" class="VYkpsb" data-stfc="1" data-url="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRRRPhLO5wn7F8sO5f0aCmJ6GPZhjqXR-CzNA">
+              <video src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRRRPhLO5wn7F8sO5f0aCmJ6GPZhjqXR-CzNA" class="DqfBw" preload="none" autoplay muted playsinline tabindex="-1" webkit-playsinline loop style="object-fit: cover; opacity: 0.001;"></video>
+            </div>
+          </div>
+          <div class="Ylm8Fc kwKgNe" aria-hidden="true">
+            <svg height="32" width="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <path class="MfcGr" d="M0 16C0 7.163 7.163 0 16 0s16 7.163 16 16-7.163 16-16 16S0 24.837 0 16Z"></path>
+              <path class="Nci3Ge" d="M13 10.92v10.16a1 1 0 0 0 1.573.819l7.257-5.08a1 1 0 0 0 0-1.638l-7.256-5.08a1 1 0 0 0-1.574.82Z"></path>
+            </svg>
+          </div>
+          <div class="kSFuOd rkqHyd"><span class="onyWef VbTyFc">Прямой эфир</span></div>
         </div>
       </div>
     </a>
-    <div class="kSFuOd rkqHyd" style="position: absolute; top: 8px; left: 8px; background: red; color: #fff; padding: 2px 6px; font-size: 12px;">Прямой эфир</div>
+    <div class="fzUZNc">
+      <div class="ITZIwc p4wth">Latest Kannada News, ನಿಮ್ಮ ವಿಜಯವಾಣಿ.ನೆಟ್​ನಲ್ಲಿ ರಾಜ್ಯ, ದೇಶ ಮತ್ತು ವಿದೇಶ, ರಾಜಕೀಯ, ಕ್ರೀಡೆ, ಸಿನಿಮಾ, ಲೈಫ್​ಸ್ಟೈಲ್​ ಮತ್ತು ನಿಮ್ಮ ಜಿಲ್ಲೆಗಳ ಸಮಗ್ರ ಸುದ್ದಿಗಳನ್ನು ಓದಿ.</div>
+      <div class="gqF9jc YrbPuc"><span>Vijayavani | Kannada News</span><span> · </span><span>Sunil Sindhey</span></div>
+    </div>
   </div>
 
-  <!-- Дополнительные blob видео -->
-  <video tabindex="-1" role="application" preload="auto" playsinline crossorigin="anonymous" class="vjs-tech" id="content_video_html5_api" src="blob:https://www.vijayavani.net/9acde8e2-6f5b-4acf-8d7e-4ee9e49c8fd5" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" muted></video>
-  <video tabindex="-1" role="application" preload="auto" playsinline crossorigin="anonymous" class="vjs-tech" id="content_video_html5_api" src="blob:https://www.vijayavani.net/9acde8e2-6f5b-4acf-8d7e-4ee9e49c8fd5" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" muted></video>
- <!-- Відео -->
-  <video id="video" controls autoplay muted playsinline
-         width="800" height="450"
-         style="display: block;"></video>
-
-  <!-- HLS.js -->
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <script>
-    var video = document.getElementById('video');
-    var videoSrc = 'https://tv.theindiebeat.fm/hls/stream.m3u8';
-
-    if (Hls.isSupported()) {
-        var hls = new Hls({
-            liveSyncDuration: 3,
-            liveMaxLatencyDuration: 5
-        });
-        hls.loadSource(videoSrc);
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MANIFEST_PARSED, function() {
-            video.play();
-        });
-    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = videoSrc;
-        video.play();
-    }
-  </script>
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-
-  "name": "Дивитися▷ * ЛЮБОВ СЕКС І ВИБОРИ 2026 повний фільм онлайн безкоштовно",
-  "description": "Прямий ефір (live stream) ЛЮБОВ СЕКС І ВИБОРИ 2026",
-
-  "thumbnailUrl": "https://img.youtube.com/vi/HoYsWagMFfE/hqdefault.jpg",
-
-  "uploadDate": "2026-03-27T05:09:00+03:00",
-
-  "isLiveBroadcast": true,
-
-  "contentUrl": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRRRPhLO5wn7F8sO5f0aCmJ6GPZhjqXR-CzNA",
-
-  "embedUrl": "https://kriik7795-code.github.io/lubov/oo.html",
-
-  "publication": {
-    "@type": "BroadcastEvent",
-    "isLiveBroadcast": true,
-    "startDate": "2026-03-27T05:09:00+03:00",
-    "endDate": "2026-03-27T18:59:00+03:00"
-  },
-
-  "potentialAction": {
-    "@type": "WatchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "https://kriik7795-code.github.io/lubov/oo.html"
-    }
-  }
-}
-</script>
-
+  <!-- Второй Google видео блок -->
+  <div class="iHxmLe" jscontroller="yfZcPd" jsaction="rcuQ6b: npT2md" jsshadow="">
+    <a class="rIRoqf" href="https://www.vijayavani.net/" aria-label="Видео &quot;ವಿಜಯವಾಣಿ ನಂ.1 ದಿನ ಪತ್ರಿಕೆ | Vijayavani | Kannada News&quot; пользователя Sunil Sindhey, Vijayavani | Kannada News. Воспроизвести на платформе &quot;Vijayavani | Kannada News&quot;. ">
+      <div class="gY2b2c">
+        <div aria-hidden="true" class="AZJdrc zGXzeb kCyj6d t7VAxe">
+          <div class="uhHOwf BYbUcd" style="height:83px;width:148px">
+            <img alt="" id="dimg_Kv3FaduxIpqPwPAP2_zUgAQ_1" src="data:image/png;base64,...">
+          </div>
+          <div jsname="DwcXhb" class="LIna9b">
+            <div jscontroller="Fy1Pv" class="VYkpsb" data-stfc="1" data-url="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRRRPhLO5wn7F8sO5f0aCmJ6GPZhjqXR-CzNA">
+              <video src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRRRPhLO5wn7F8sO5f0aCmJ6GPZhjqXR-CzNA" class="DqfBw" preload="none" autoplay muted playsinline tabindex="-1" webkit-playsinline loop style="object-fit: cover; opacity: 0.001;"></video>
+            </div>
+          </div>
+          <div class="Ylm8Fc kwKgNe" aria-hidden="true">
+            <svg height="32" width="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <path class="MfcGr" d="M0 16C0 7.163 7.163 0 16 0s16 7.163 16 16-7.163 16-16 16S0 24.837 0 16Z"></path>
+              <path class="Nci3Ge" d="M13 10.92v10.16a1 1 0 0 0 1.573.819l7.257-5.08a1 1 0 0 0 0-1.638l-7.256-5.08a1 1 0 0 0-1.574.82Z"></path>
+            </svg>
+          </div>
+          <div class="kSFuOd rkqHyd"><span class="onyWef VbTyFc">Прямой эфир</span></div>
+        </div>
+      </div>
+    </a>
+    <div class="fzUZNc">
+      <div class="ITZIwc p4wth">Latest Kannada News, ನಿಮ್ಮ ವಿಜಯವಾಣಿ.ನೆಟ್​ನಲ್ಲಿ ರಾಜ್ಯ, ದೇಶ ಮತ್ತು ವಿದೇಶ, ರಾಜಕೀಯ, ಕ್ರೀಡೆ, ಸಿನಿಮಾ, ಲೈಫ್​ಸ್ಟೈಲ್​ ಮತ್ತು ನಿಮ್ಮ ಜಿಲ್ಲೆಗಳ ಸಮಗ್ರ ಸುದ್ದಿಗಳನ್ನು ಓದಿ.</div>
+      <div class="gqF9jc YrbPuc"><span>Vijayavani | Kannada News</span><span> · </span><span>Sunil Sindhey</span></div>
+    </div>
+  </div>
 </header>
 <html lang="ru">
 <head>
